@@ -1,6 +1,6 @@
 {
   "name": "ultimate-communication",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "package description",
   "private": false,
   "main": "lib/index.js",
