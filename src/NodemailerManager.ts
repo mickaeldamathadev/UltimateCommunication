@@ -41,7 +41,7 @@ export class Mail {
         to: receiver, // list of receivers
         subject: subject, // Subject line
         html: body, // plain text body
-        attachments: [attachment],
+        attachments: attachment ? [attachment] : null,
       }
 
       const mail = await new Promise((res, rej) => {
